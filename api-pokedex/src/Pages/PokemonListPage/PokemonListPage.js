@@ -1,5 +1,19 @@
-const PokemonListPage = () => {
-    return <>PokemonListPage</>
-}
+import PokemonCard from "../../Components/PokemonCard/PokemonCard";
+import { PokemonListContainer } from "./Styled";
 
-export default PokemonListPage
+const PokemonListPage = () => {
+  return (
+    <PokemonListContainer>
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+      <PokemonCard />
+    </PokemonListContainer>
+  );
+};
+
+export default PokemonListPage;

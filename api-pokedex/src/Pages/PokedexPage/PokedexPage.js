@@ -1,5 +1,5 @@
 const PokedesPage = () => {
-    return <>PokedesPage</>
+    return <>PokedexPage</>
 }
 
 export default PokedesPage

@@ -1,5 +1,5 @@
-const PokedesPage = () => {
+const PokedexPage = () => {
     return <>PokedexPage</>
 }
 
-export default PokedesPage
+export default PokedexPage
